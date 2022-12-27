@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <style>
+     .CALCULATOR{
+ display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-template-rows: repeat(4,46px);
+                margin:auto;
+          width: 40vw;
+          height: 30vw;
+          text-align: center;
+          padding:10px;
+          gap:10px;
+           /* background-color: aliceblue; */
+
+     }
+     .CALCULATOR div{
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        border-radius:10px; 
+        background-color: white;
+
+         
+     }
+      #q{
+        background-color: black;
+         color: white;
+      }
+     #w{   
+            background-color: orangered;
+       }
+        .input{
+              width: 40vw;
+              height: 46px;
+              border-radius:10px;
+            box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+             background-color: rgb(247, 247, 249);
+              margin:auto ;
+              margin-bottom:20px;
+               
+        }
+     #conw{
+   margin:auto;
+         width: 44vw;
+          height:  48vw;
+              padding-top:40px;
+               border-radius: 10px;
+        background-color: rgb(31, 31, 203);
+     }
+
+ </style>
+<body>
+    <h1>MASAI CALCULATOR</h1>
+     <div id="conw">
+      <div class="input"></div>
+     <div class='CALCULATOR'>
+        
+        <!-- <div class="input">A</div>   -->
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div id="q">+</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div id="q">-</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div id="q">x</div>
+        <div id="w">C</div>
+        <div>0</div>
+        <div id="q">=</div>
+        <div id="q">/</div>
+    </div>
+     </div>
+</body>
+</html>
